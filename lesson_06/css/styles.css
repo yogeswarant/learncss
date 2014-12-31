@@ -1,0 +1,19 @@
+ul.default {
+  list-style: default;
+}
+
+ul.circle {
+  list-style: circle;
+}
+
+ul.none {
+  list-style: none;
+}
+
+ul.padding0 {
+  padding: 0;
+}
+
+ul.displayinline li{
+  display: inline;
+}
