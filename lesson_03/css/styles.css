@@ -1,0 +1,45 @@
+/*Text styles*/
+
+p.cred {
+    color:red;
+}
+
+p.acenter {
+  text-align:center;
+}
+
+p.aleft {
+  text-align: left;
+}
+
+p.aright {
+  text-align: right;
+}
+
+p.dlinethrough {
+  text-decoration: line-through;
+}
+
+p.dunderline {
+  text-decoration: underline;
+}
+
+p.doverline {
+  text-decoration: overline;
+}
+
+p.tuppercase {
+  text-transform: uppercase;
+}
+
+p.tcapitalize {
+  text-transform: capitalize;
+}
+
+p.tlowercase {
+  text-transform: lowercase;
+}
+
+p.tindent {
+  text-indent: 100px;
+}
