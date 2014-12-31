@@ -1,0 +1,47 @@
+p.ffamilysans {
+  font-family: sans-serif;
+}
+
+p.ffamilyarial {
+  font-family: arial, sans-serif;
+}
+
+p.ffamilyhelvetica {
+  font-family: Helvetica;
+}
+
+p.sizepx {
+  font-size: 16px;
+}
+
+p.sizeem {
+  font-size: 1em;
+}
+
+p.sitalic {
+  font-style: italic;
+}
+
+p.soblique {
+  font-style: oblique;
+}
+
+p.snormal {
+  font-style: normal;
+}
+
+p.vsmallcaps {
+  font-variant:small-caps;
+}
+
+p.wbold {
+  font-weight: bold;
+}
+
+p.w900 {
+  font-weight: 900;
+}
+
+p.fall {
+  font: italic small-caps 900 1.4em Helvetica, arial, sans-serif;
+}
