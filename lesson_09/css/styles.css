@@ -1,0 +1,59 @@
+.sborder {
+  background-color:red;
+  width:400px;
+  height:400px;
+  margin: 20px auto;
+  border-width: 20px;
+  border-style: solid;
+  border-color: yellow;
+}
+
+.dborder {
+  background-color:red;
+  width:400px;
+  height:400px;
+  margin: 20px auto;
+  border-width: 20px;
+  border-style: dotted;
+  border-color: yellow;
+}
+
+.oborder {
+  background-color:red;
+  width:400px;
+  height:400px;
+  margin: 20px auto;
+  border: 30px solid yellow;
+}
+
+.tborder {
+  background-color:red;
+  width:400px;
+  height:400px;
+  margin: 20px auto;
+  border-top: 30px solid yellow;
+}
+
+.lborder {
+  background-color:red;
+  width:400px;
+  height:400px;
+  margin: 20px auto;
+  border-left: 30px solid yellow;
+}
+
+.bborder {
+  background-color:red;
+  width:400px;
+  height:400px;
+  margin: 20px auto;
+  border-bottom: 30px solid yellow;
+}
+
+.rborder {
+  background-color:red;
+  width:400px;
+  height:400px;
+  margin: 20px auto;
+  border-right: 30px solid yellow;
+}
