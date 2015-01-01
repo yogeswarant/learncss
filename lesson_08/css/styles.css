@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.margind {
+  background-color:red;
+  width: 80%;
+  height:40px;
+  margin:10px;
+}
+
+.margin0 {
+  background-color:red;
+  margin:0;
+  width: 80%;
+  height:40px;
+}
+
+.margins {
+  background-color: red;
+  margin-top:20px;
+  margin-right:40px;
+  margin-bottom:60px;
+  margin-left:80px;
+}
+
+.oneliner {
+  background-color:red;
+  margin: 20px 40px 60px 80px;
+}
+
+.shortform {
+  background-color:red;
+  margin: 20px 40px;
+}
+
+.auto {
+  background-color:red;
+  margin: 20px auto;
+  width: 400px;
+  height: 400px;
+}
