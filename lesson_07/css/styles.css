@@ -1,0 +1,13 @@
+.fixed {
+  background-color:red;
+  width:400px;
+  height:400px;
+
+}
+
+.relative {
+  background-color:red;
+  width:80%;
+  height:400px;
+
+}
