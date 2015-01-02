@@ -1,0 +1,13 @@
+h3, p, ul  {
+  color: white;
+  background-color: red;
+}
+
+.content.main {
+  color: white;
+  background-color: blue;
+}
+
+.warning {
+  color:red;
+}

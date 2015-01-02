@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Grouping and nesting</h1>
+    <h2>Grouping elements</h2>
+    <pre>
+      h3, p, ul  {
+        color: white;
+        background-color: red;
+      }
+
+    </pre>
+    <h3>Heading level 3</h3>
+    <p>
+      Some content inside paragraph.
+    </p>
+    <ul>
+      <li>Item1</li>
+      <li>Item2</li>
+      <li>Item3</li>
+    </ul>
+    <br>
+    <h2>Nesting</h2>
+    <pre>
+      .content.main {
+        color: white;
+        background-color: blue;
+      }
+    </pre>
+    <div class="content">
+      Content without main class
+      <pre>
+        &lt;div class="content"&gt;
+      </pre>
+    </div>
+    <div class="content main">
+      Content with main class
+      <pre>
+        &lt;div class="content main"&gt;
+      </pre>
+
+    </div>
+    <h2>Using class for common properties</h2>
+    <pre>
+      .warning {
+        color: red;
+      }
+    </pre>
+    <b class="warning">
+      &lt;b class="warning"&gt;
+    </b>
+    <br>
+    <span class="warning">
+      &lt;span class="warning"&gt;
+    </span>
+    <br>
+    </body>
+</html>
