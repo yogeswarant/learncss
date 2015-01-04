@@ -1,0 +1,23 @@
+.dblock {
+  background-color: red;
+  width:400px;
+  height:300px;
+  margin: 20px auto;
+  display: block;
+}
+
+.dinline {
+  background-color: red;
+  width:400px;
+  height:300px;
+  margin: 20px auto;
+  display: inline-block;
+}
+
+.dnone {
+  background-color: red;
+  width:400px;
+  height:300px;
+  margin: 20px auto;
+  display: none;
+}

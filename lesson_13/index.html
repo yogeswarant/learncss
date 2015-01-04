@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>display - block, inline, inline-block, none</h1>
+    <h2>display: block</h2>
+    <div class="dblock">
+      Do inspect element and check that the div is occupying the entire horizontal space.
+      This the default property when display is block.
+      <br>
+      <br>
+      display: block;
+      <br>
+    </div>
+
+    <h2>display: inline-block</h2>
+    <div class="dinline">
+      Now the div will not occupy the entire horizontal space.
+      This the default property when display is inline-block.
+      <br><br>
+      <b>Note:</b> Even div can be given inline, but the elements inside the div will
+      not be displayed as expected.  Thats the reason to use <b>inline-block</b>.
+      <br>
+      <br>
+      display: inline-block;
+      <br>
+    </div>
+
+    <h2>display: inline</h2>
+    <span> This is a span test - which has <b>display: inline</b> by default</span>
+    <a href="#">This is an anchor tag - which has <b>display: inline</b> by default</a>
+
+    <h2>display: none</h2>
+    <div class="dnone">
+      The contents inside div whose display is set as none will not be displayed.
+      <br>
+      This can be used for hiding without taking space.  If you want to hide and but still use the
+      space then use visibility: hidden.
+      <br>
+      <br>
+      display: none;
+      <br>
+    </div>
+  </body>
+</html>
