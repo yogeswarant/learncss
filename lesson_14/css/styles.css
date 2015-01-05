@@ -1,0 +1,27 @@
+.abs {
+  width:200px;
+  height:200px;
+  background-color: green;
+  position: absolute;
+  color:white;
+}
+
+.rel {
+  width:200px;
+  height:200px;
+  background-color: blue;
+  position: relative;
+  left: 400px;
+  right: 400px;
+  color:white;
+}
+
+.fix {
+  width:200px;
+  height:200px;
+  background-color: red;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  color:white;
+}
