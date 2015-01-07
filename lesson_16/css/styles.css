@@ -1,0 +1,23 @@
+p.hover-class:hover {
+  background-color: red;
+}
+
+p.first-letter-class:first-letter {
+  font-weight: bold;
+  color: red;
+}
+
+p.first-line-class:first-line {
+  font-weight: bold;
+  color: red;
+}
+
+ul.first-child-class li:first-child{
+  font-weight: bold;
+  color:red;
+}
+
+ul.last-child-class li:last-child{
+  font-weight: bold;
+  color:red;
+}
