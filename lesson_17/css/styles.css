@@ -1,0 +1,7 @@
+span.rupee:before {
+  content: "\20B9"
+}
+
+span.degree:after {
+  content: "\00b0"
+}
