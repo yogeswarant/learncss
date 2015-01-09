@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Child selector</h1>
+    <h2>li > a {
+      background-color: yellow;
+    }
+    </h2>
+    <a href="#">Anchor 1 outside of li unaffected</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#">Anchor 2 outside of li unaffected</a>
+    <br><br>
+    <ul>
+      <li><a href="#">Anchor 1 inside li</a></li>
+      <li><a href="#">Anchor 2 inside li</a></li>
+    </ul>
+
+    <h2>li > ul > li {
+      display: inline;
+      background-color: cyan;
+    }
+    </h2>
+    <ul>
+      <li>Item 1
+        <ul>
+          <li>SubItem 1</li>
+          <li>SubItem 2</li>
+        </ul>
+      </li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+</html>

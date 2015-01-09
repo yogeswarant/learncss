@@ -1,0 +1,8 @@
+li > a {
+  background-color: yellow;
+}
+
+li > ul > li {
+  display: inline;
+  background-color: cyan;
+}
