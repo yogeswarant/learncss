@@ -1,0 +1,8 @@
+header a {
+  background: url('../img/yogi_med.jpg') no-repeat;
+  background-size: 80px 60px;
+  background-color: rgb(255, 199, 0);
+  background-position: 50px;
+  display: block;
+  color: transparent;
+}
