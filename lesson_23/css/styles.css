@@ -1,0 +1,68 @@
+nav {
+  background-color: #333;
+}
+
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+a {
+  display: block;
+  color: white;
+  width: 150px;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #111;
+
+}
+
+nav ul {
+  margin: 0px;
+  list-style: none;
+}
+
+
+nav > ul > li > ul {
+  padding: 0;
+  display: none;
+  position: absolute;
+}
+
+nav > ul > li:hover > ul {
+  padding: 0;
+  display: block;
+  background-color: #222;
+}
+
+nav  ul  li {
+  display: block;
+  float: left;
+  position: relative;
+}
+
+nav > ul > li > ul > li {
+  float: none;
+  padding-left: -10px;
+}
+
+nav > ul > li > ul > li > ul {
+   display: none;
+}
+
+nav > ul > li > ul > li:hover > ul {
+  display: block;
+  float: left;
+  top: 0;
+  position: absolute;
+  left: 170px;
+  padding: 0;
+  background-color: #444;
+}
