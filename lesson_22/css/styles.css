@@ -1,0 +1,49 @@
+nav {
+  background-color: #333;
+}
+
+.clearfix:before, .clearfix:after {
+  content:"";
+  display:table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+a {
+  display: block;
+  color: white;
+  width: 150px;
+  padding: 10px 10px;
+}
+
+a:hover {
+  background-color: #111;
+}
+
+nav ul {
+  margin: 0px;
+}
+
+nav ul li ul {
+  padding: 0;
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover ul {
+  padding: 0;
+  display: block;
+  background-color: #222;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+}
+
+nav ul li ul li {
+  float: none;
+  padding-left: -10px;
+}
