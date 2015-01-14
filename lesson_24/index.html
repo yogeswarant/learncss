@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>CSS Selectors - Adjacent sibling selector and Sibling selector</h1>
+    <p>All selectors work only on forward directions. Even if there is going to be a
+      expected sibling before selected element it'll be ignored.
+    </p>
+    <h2>
+      Adjacent sibling selector
+      <pre>
+    ul + p {
+      font-weight: bold;
+      color: red;
+    } </pre>
+  </h2>
+
+    <ul>
+      <li>&lt;ul&gt;&lt;/ul&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;ul&gt;&lt;/ul&gt;</li>
+    </ul>
+    <p>&lt;p&gt;&lt;/p&gt;</p>
+    <h2>
+      Sibling selector
+      <pre>
+        ul ~ h3 {
+          font-weight: bold;
+          color: green;
+        }</pre>
+      </h2>
+    <ul>
+      <li>&lt;ul&gt;&lt;/ul&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;li&gt;&lt;/li&gt;</li>
+      <li>&lt;ul&gt;&lt;/ul&gt;</li>
+    </ul>
+    <h3>&lt;h3&gt;&lt;/h3&gt;</h3>
+    <p>&lt;p&gt;&lt;/p&gt;</p>
+    <div>&lt;div&gt;&lt;/div&gt;</div>
+    <h3>&lt;h3&gt;&lt;/h3&gt;</h3>
+    <p>&lt;p&gt;&lt;/p&gt;</p>
+    <p>&lt;p&gt;&lt;/p&gt;</p>
+  </body>
+  </html>
