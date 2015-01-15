@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.right {
+  text-shadow: 10px 0 0 red;
+}
+
+.bottom {
+  text-shadow: 0 10px 0 red;
+}
+
+.left {
+  text-shadow: -10px 0 0 red;
+}
+
+.top {
+  text-shadow: 0 -10px 0 red;
+}
+
+.blur {
+  text-shadow: 0 10px 5px red;
+}
