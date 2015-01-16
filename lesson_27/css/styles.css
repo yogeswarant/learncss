@@ -1,0 +1,41 @@
+.square {
+  width: 250px;
+  height: 250px;
+  background-color: #689ee9;
+  margin: 20px auto;
+  font-weight: bold;
+  line-height: 250px;
+  text-align: center;
+}
+
+.downright {
+  box-shadow: 20px 20px;
+}
+
+.blur {
+  box-shadow:20px 20px 10px;
+}
+
+.rad {
+  box-shadow:20px 20px 0 10px;
+}
+
+.inset {
+  box-shadow: inset 20px 20px;
+}
+
+.color {
+  box-shadow: 20px 20px red;
+}
+
+.downleft {
+  box-shadow: -20px 20px;
+}
+
+.topright {
+  box-shadow: 20px -20px;
+}
+
+.topleft {
+  box-shadow: -20px -20px;
+}
