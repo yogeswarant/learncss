@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>CSS Box sizing</h1>
+    <div class="square">
+      max-width: 400px;<br>
+      max-height: 400px;<br>
+      width: 400px;<br>
+      height: 400px;<br>
+      padding: 50px;<br>
+      without box-sizing: border-box;<br>
+      <br><br>
+      Inspect the size
+    </div>
+    <br>
+    <br>
+    <div class="square boxsized">
+      max-width: 400px;<br>
+      max-height: 400px;<br>
+      width: 400px;<br>
+      height: 400px;<br>
+      padding: 50px;<br>
+      box-sizing: border-box;<br>
+      -moz-box-sizing: border-box;<br>
+      -webkit-box-sizing: border-box;<br>
+      <br><br>
+      Inspect the size. Everything will be contained within the max size.
+    </div>
+  </body>
+</html>
