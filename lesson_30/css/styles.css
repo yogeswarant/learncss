@@ -1,0 +1,51 @@
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+  background-color: #58a7e9;
+  color:white;
+}
+
+.color {
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+}
+
+.color:hover {
+  background-color: #031e30;
+}
+
+.size:hover {
+  width:300px;
+  -webkit-transition: width 2s ease-out;
+  -moz-transition: width 2s ease-out;
+  -o-transition: width 2s ease-out;
+}
+
+.fixed {
+  -webkit-transition: width 2s ease-out;
+  -moz-transition: width 2s ease-out;
+  -o-transition: width 2s ease-out;
+}
+
+.fixed:hover {
+  width:300px;
+  -webkit-transition: width 2s ease-out;
+  -moz-transition: width 2s ease-out;
+  -o-transition: width 2s ease-out;
+}
+
+.double {
+  -webkit-transition: width 2s ease-out 5s, background-color 5s ease-in 2s;
+  -moz-transition: width 2s ease-out 5s, background-color 5s ease-in 2s;
+  -o-transition: width 2s ease-out 5s, background-color 5s ease-in 2s;
+}
+
+.double:hover {
+  width: 300px;
+  background-color: #289c05;
+  -webkit-transition: width 2s ease-out 5s, background-color 2s ease-in 2s;
+  -moz-transition: width 2s ease-out 5s, background-color 2s ease-in 2s;
+  -o-transition: width 2s ease-out 5s, background-color 2s ease-in 2s;
+}
