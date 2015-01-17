@@ -1,0 +1,26 @@
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+  background-color: red;
+}
+
+.topdown {
+  background-image: linear-gradient(top, #f3baba, #fa0707);
+  background-image: -webkit-linear-gradient(top, #f3baba, #fa0707);
+}
+
+.bottomup {
+  background-image: linear-gradient(bottom, #f3baba, #fa0707);
+  background-image: -webkit-linear-gradient(bottom, #f3baba, #fa0707);
+}
+
+.leftright {
+  background-image: linear-gradient(left, #f3baba, #fa0707);
+  background-image: -webkit-linear-gradient(left, #f3baba, #fa0707);
+}
+
+.rightleft {
+  background-image: linear-gradient(right, #f3baba, #fa0707);
+  background-image: -webkit-linear-gradient(right, #f3baba, #fa0707);
+}
