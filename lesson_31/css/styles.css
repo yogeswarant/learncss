@@ -1,0 +1,136 @@
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 40px auto;
+  background-color: #58a7e9;
+  color:white;
+}
+
+.smoother {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.rotator:hover {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+
+.zoom {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+.zoom:hover {
+  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+}
+
+.onlyx {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+.onlyx:hover {
+  transform: scaleX(1.2);
+  -webkit-transform: scaleX(1.2);
+  -moz-transform: scaleX(1.2);
+}
+
+.onlyy {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+.onlyy:hover {
+  transform: scaleY(1.2);
+  -webkit-transform: scaleY(1.2);
+  -moz-transform: scaleY(1.2);
+}
+
+.slant {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.slant:hover {
+  transform: skew(30deg, 30deg);
+  -webkit-transform: skew(30deg, 30deg);
+  -moz-transform: skew(30deg, 30deg);
+}
+
+.slantX {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.slantX:hover {
+  transform: skewX(30deg);
+  -webkit-transform: skewX(30deg);
+  -moz-transform: skewX(30deg);
+}
+
+.slantY {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.slantY:hover {
+  transform: skewY(30deg);
+  -webkit-transform: skewY(30deg);
+  -moz-transform: skewY(30deg);
+}
+
+.trans {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.trans:hover {
+  transform: translate(20px, 20px);
+  -webkit-transform: translate(20px, 20px);
+  -moz-transform: translate(20px, 20px);
+}
+
+.transX {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.transX:hover {
+  transform: translateX(20px);
+  -webkit-transform: translate(20px);
+  -moz-transform: translate(20px);
+}
+
+.transY {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.transY:hover {
+  transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+}
+
+.matrix {
+  transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  -moz-transition: all 2s ease-out;
+}
+
+.matrix:hover {
+  transform: matrix(1, 2, 3, 4, 5, 6);
+  -webkit-transform: matrix(1, 2, 3, 4, 5, 6);
+  -moz-transform: matrix(1, 2, 3, 4, 5, 6);
+}
