@@ -5,6 +5,10 @@
   background-color: red;
 }
 
+.multi {
+  -moz-animation: spin 2s linear infinite, gradient 2s linear infinite;  
+}
+
 .spinonce {
   -webkit-animation: spin 2s linear 1;
   -moz-animation: spin 2s linear 1;
