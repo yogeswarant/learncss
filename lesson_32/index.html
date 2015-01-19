@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Animation</h1>
+    <pre>
+      .spinonce {
+        -animation: spin 2s linear 1;
+      }
+
+      @-keyframes spin {
+        0% { -transform: rotate(0deg);}
+        100% { -transform: rotate(360deg); }
+      }
+    </pre>
+    <div class="square spinonce">
+    </div>
+    <br><br>
+
+    <pre>
+    .spin {
+      -animation: spin 2s linear infinite;
+    }
+
+    @-keyframes spin {
+      0% { -transform: rotate(0deg);}
+      100% { -transform: rotate(360deg); }
+    }
+  </pre>
+    <div class="square spin">
+    </div>
+    <br><br>
+    <pre>
+      .wobble {
+        -animation: wobble 5s linear infinite;
+      }
+
+      @-keyframes wobble {
+        0% { -transform: rotate(0deg);}
+        50% { -transform: rotate(180deg);}
+        100% { -transform: rotate(0deg); }
+      }
+    </pre>
+    <div class="square wobble">
+    </div>
+    <br><br>
+    <pre>
+      .gradient {
+        -animation: gradient 2s linear infinite;
+      }
+
+      @-keyframes gradient {
+        0% { opacity: 0;}
+        100% { opacity: 1;}
+      }
+    </pre>
+    <div class="square gradient">
+    </div>
+  </body>
+</html>

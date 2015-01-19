@@ -1,0 +1,73 @@
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  background-color: red;
+}
+
+.spinonce {
+  -webkit-animation: spin 2s linear 1;
+  -moz-animation: spin 2s linear 1;
+  -animation: spin 2s linear 1;
+}
+
+.spin {
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  -animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg);}
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+  0% {-moz-transform: rotate(0deg);}
+  100% {-moz-transform: rotate(360deg);}
+}
+
+@-keyframes spin {
+  0% {-transform: rotate(0deg);}
+  100% {-transform: rotate(360deg);}
+}
+
+.wobble {
+  -webkit-animation: wobble 5s linear infinite;
+  -moz-animation: wobble 5s linear infinite;
+  -animation: wobble 5s linear infinite;
+}
+
+-webkit-keyframes wobble {
+  0% { -webkit-transform: rotate(0deg);}
+  50% { -webkit-transform: rotate(180deg);}
+  100% { -webkit-transform: rotate(0deg); }
+}
+
+@-moz-keyframes wobble {
+  0% {-moz-transform: rotate(0deg);}
+  50% { -moz-transform: rotate(180deg);}
+  100% {-moz-transform: rotate(0deg);}
+}
+
+@-keyframes wobble {
+  0% {-transform: rotate(0deg);}
+  50% { -transform: rotate(180deg);}
+  100% {-transform: rotate(0deg);}
+}
+
+.gradient {
+  -webkit-animation: gradient 2s linear infinite;
+  -moz-animation: gradient 2s linear infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+@-moz-keyframes gradient {
+  0% { background-color:  #b9153d;}
+  50% { background-color:  #1814a2;}
+  100% { background-color:  #b9153d;}
+}
