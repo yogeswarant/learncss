@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'gooddogregular';
+  src: url('../fonts/GoodDog-webfont.eot');
+  src: url('../fonts/GoodDog-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/GoodDog-webfont.woff') format('woff'),
+  url('../fonts/GoodDog-webfont.ttf') format('truetype'),
+  url('../fonts/GoodDog-webfont.svg#gooddogregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.customfont {
+  font-family: 'gooddogregular' sans-serif;
+  font-size: 30px;
+}
