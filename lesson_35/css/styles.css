@@ -1,0 +1,17 @@
+body {
+  background: url("../img/blue.png") no-repeat,
+              url("../img/cross.png");
+
+  background-position:top center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+div {
+  max-width: 430px;
+  margin: 0 auto;
+  background-color: white;
+}
