@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Learn CSS</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Background styles</h1>
+    <pre>
+      /* to have a background image tiled */
+      /*-----------------------------------*/
+
+      background-image:url('../img/sample.png');
+      /* or */
+      background:url('../img/sample.png');
+
+
+      /* to have a background image tiled only on x axis*/
+      /*------------------------------------------------*/
+      background-image:url('../img/sample.png');
+      background-repeat: repeat-x;
+      /* or */
+      background:url('../img/sample.png') repeat-x;
+
+
+      /* to have a background image tiled only on y axis*/
+      /*-------------------------------------------------*/
+      background-image:url('../img/sample.png');
+      background-repeat: repeat-y;
+      /* or */
+      background:url('../img/sample.png') repeat-y;
+
+
+      /* to have a background image without tiling */
+      /*--------------------------------------------*/
+      background-image:url('../img/sample.png');
+      background-repeat: no-repeat;
+      /* or */
+      background:url('../img/sample.png') no-repeat;
+
+      /* to have background image fixed and not scrolling with the page */
+      /*----------------------------------------------------------------*/
+      background-image:url('../img/sample.png');
+      background-attachment: fixed;
+      /* or */
+      background:url('../img/sample.png') fixed;
+
+      /* to fill rest of the background which is not filled with image */
+      background-color:#62AE6E;
+      background-image: url('../img/sample.png');
+      background-repeat: no-repeat;
+      /* or */
+      background:#62AE6E url('../img/sample.png') no-repeat;
+
+
+    </pre>
+  </body>
+</html>

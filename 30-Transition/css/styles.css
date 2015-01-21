@@ -37,15 +37,15 @@
 }
 
 .double {
-  -webkit-transition: width 2s ease-out 5s, background-color 5s ease-in 2s;
-  -moz-transition: width 2s ease-out 5s, background-color 5s ease-in 2s;
-  -o-transition: width 2s ease-out 5s, background-color 5s ease-in 2s;
+  -webkit-transition: width 2s ease-out 2s, background-color 5s ease-in 2s;
+  -moz-transition: width 2s ease-out 2s, background-color 5s ease-in 2s;
+  -o-transition: width 2s ease-out 2s, background-color 5s ease-in 2s;
 }
 
 .double:hover {
   width: 300px;
   background-color: #289c05;
-  -webkit-transition: width 2s ease-out 5s, background-color 2s ease-in 2s;
-  -moz-transition: width 2s ease-out 5s, background-color 2s ease-in 2s;
-  -o-transition: width 2s ease-out 5s, background-color 2s ease-in 2s;
+  -webkit-transition: width 2s ease-out 2s, background-color 2s ease-in 2s;
+  -moz-transition: width 2s ease-out 2s, background-color 2s ease-in 2s;
+  -o-transition: width 2s ease-out 2s, background-color 2s ease-in 2s;
 }
