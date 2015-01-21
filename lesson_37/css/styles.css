@@ -1,0 +1,11 @@
+ul {
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  list-style: inside;
+}
+
+li {
+  column-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+}
