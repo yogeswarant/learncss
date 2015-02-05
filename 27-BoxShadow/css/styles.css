@@ -39,3 +39,7 @@
 .topleft {
   box-shadow: -20px -20px;
 }
+
+.button-effect {
+  box-shadow: 0px 5px 20px 5px;
+}
