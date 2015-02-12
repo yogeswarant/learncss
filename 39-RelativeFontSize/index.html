@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>Relative font size</h1>
+</header>
+<body>
+  <div class="main">
+  	Contents inside main
+  	<div class="smaller">Contents inside smaller - smaller than main</div>
+  </div>
+  <br><br>
+  <div class="main">
+  	Contents inside main
+  	<div class="sub">Contents inside sub - 90% of main</div>
+  </div>
+  <p>The size can be reduced either by using smaller or given % of parent size.</p>
+  <pre>
+  	.main {
+		padding: 20px;
+		margin: 0 auto;
+		background-color: #587ff5;
+		max-width: 200px;
+		border-radius: 5px;
+	}
+
+	.smaller {
+		font-size: smaller;
+	}
+
+	.sub {
+		font-size: 90%;
+	}
+  </pre>
+</body>
+</html>

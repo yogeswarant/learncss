@@ -1,0 +1,15 @@
+.main {
+	padding: 20px;
+	margin: 0 auto;
+	background-color: #587ff5;
+	max-width: 200px;
+	border-radius: 5px;
+}
+
+.smaller {
+	font-size: smaller;
+}
+
+.sub {
+	font-size: 90%;
+}
